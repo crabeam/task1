@@ -1,0 +1,97 @@
+/*
+##################################################
+#colorで原色は使わない
+##################################################
+*/
+
+header {
+    color: white;
+    background-color: rgb(90, 135, 180);
+  }
+
+head {
+    background-color: rgb(90, 135, 180);
+  }
+  
+body {
+    background-color: rgb(245, 245, 245);
+    margin: 0px;
+    padding: 0px;
+  }
+
+.top {
+    background-color: rgb(0, 155, 125);
+    color: rgb(255, 255, 255);
+    text-align: center;
+  }
+
+.inquiry {
+    color: rgb(100, 100, 100);
+    text-align: center;  
+  }
+
+input {
+    height: 15px;
+    width: 300px;
+    padding: 5px;
+  }
+
+button {
+    color:rgb(245, 245, 245);
+    background-color: rgb(0, 155, 125);
+    border-radius: 5%;
+    padding: 5px;
+    border: rgb(0, 155, 125);
+  }
+
+button:hover {
+    background: rgb(100, 100, 100);
+  }
+
+h2 {
+    text-align: center;
+    color: rgb(100, 100, 100);
+  }
+  
+ul {
+    list-style: none;
+    margin-left: 100px;
+    margin-right: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+  }
+  
+li {
+    background-color: rgb(255, 255, 255);
+    height: 400px;
+    flex-basis: 300px;
+    flex-grow: 1;
+    text-align: center;
+  }
+
+li:hover {
+    background-color: rgb(190, 255, 190);
+  }
+  
+.content-pic {
+    height: 150px;
+    width: 150px;
+    margin: 10px;
+    text-align: center;
+  }
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: white;
+    background-color: rgb(90, 135, 180);
+    text-align: center;
+  }
+
+.content {
+    width: 30%;
+    padding: 10px;
+  }
